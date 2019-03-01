@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kamran.bluewhite">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cooperativa"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".buscarCliente"></activity>
+        <activity android:name=".ingresoCliente" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main" />
+        <activity android:name=".signin" />
+        <activity android:name=".signup" />
+        <activity android:name=".prueba" />
+        <activity
+            android:name=".mimenuNavegacion"
+            android:label="@string/title_activity_mimenu_navegacion"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
